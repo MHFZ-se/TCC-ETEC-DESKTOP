@@ -53,7 +53,6 @@ C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\bin\Debug\netcoreapp3.
 C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\TCC.csprojAssemblyReference.cache
 C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\staticwebassets\TCC.StaticWebAssets.Manifest.cache
 C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\staticwebassets\TCC.StaticWebAssets.xml
-C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\TCC.MvcApplicationPartsAssemblyInfo.cache
 C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\TCC.RazorAssemblyInfo.cache
 C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\TCC.RazorAssemblyInfo.cs
 C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\TCC.AssemblyInfoInputs.cache
@@ -80,3 +79,9 @@ C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.
 C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\TCC.dll
 C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\TCC.pdb
 C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\TCC.csproj.CopyComplete
+C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\bin\Debug\netcoreapp3.0\Google.Protobuf.dll
+C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\bin\Debug\netcoreapp3.0\MySql.Data.dll
+C:\Area de trabalho\Breno\ETEC\TCC\TCC-ETEC-DESKTOP\Outro\obj\Debug\netcoreapp3.0\TCC.MvcApplicationPartsAssemblyInfo.cache

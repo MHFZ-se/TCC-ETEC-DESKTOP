@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Outro.Models;
+using TCC.Data;
 
 namespace Outro.Controllers
 {
@@ -13,6 +14,21 @@ namespace Outro.Controllers
     {
         public ActionResult Index()
         {
+            Conexao conexao = new Conexao();
+
+            if (conexao.AbrirConexao())
+            {
+                ViewBag.Mensagem =
+                    "Conectado ao MySQL com sucesso!";
+            }
+            else
+            {
+                ViewBag.Mensagem =
+                    "Erro ao conectar.";
+            }
+
+            conexao.FecharConexao();
+
             return View();
         }
 
