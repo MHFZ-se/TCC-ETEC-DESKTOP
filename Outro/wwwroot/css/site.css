@@ -426,3 +426,23 @@ body {
     color: white;
     margin-bottom: 30px;
 }
+
+.erro {
+    background: #ffe5e5;
+    color: #c62828;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-card button {
+    border: none;
+    cursor: pointer;
+}

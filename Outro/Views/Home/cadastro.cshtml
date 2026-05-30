@@ -1,21 +1,22 @@
 ﻿@{
     ViewBag.Title = "Cadastro";
 }
-
+@model Outro.Models.Usuario
 <div class="center">
     <div class="form-card">
         <h1>Cadastrar</h1>
+        <form asp-action="Cadastro" method="post">
+            <input asp-for="Nome" type="text" placeholder="Nome" required>
+            <input asp-for="Serie" type="number" placeholder="Número série" required>
+            <input asp-for="Telefone" type="tel" placeholder="Telefone" required>
+            <input asp-for="Email" type="email" placeholder="Email" required>
+            <input asp-for="Senha" type="password"
+                   placeholder="Senha" required>
 
-        <input placeholder="Nome">
-        <input placeholder="Número série">
-        <input placeholder="Telefone">
-        <input placeholder="Email">
-        <input type="password"
-               placeholder="Senha">
-
-        <a href="/Home/Login"
-           class="btn green">
-            Cadastrar
-        </a>
+            <button type="submit"
+                    class="btn green">
+                Cadastrar
+            </button>
+        </form>
     </div>
 </div>

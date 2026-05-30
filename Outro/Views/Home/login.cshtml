@@ -4,22 +4,46 @@
 
 <div class="center">
     <div class="form-card">
+
         <h1>Entrar</h1>
 
-        <input placeholder="Email">
-        <input type="password"
-               placeholder="Senha">
+        @if (ViewBag.Erro != null)
+        {
+            <div class="erro">
+                @ViewBag.Erro
+            </div>
+        }
 
-        <a href="/Home/Dispositivos"
-           class="btn green">
-            Logar
-        </a>
+        <form asp-action="Login"
+              asp-controller="Home"
+              method="post">
+
+            <input type="email"
+                   name="email"
+                   placeholder="Email"
+                   required />
+
+            <input type="password"
+                   name="senha"
+                   placeholder="Senha"
+                   required />
+
+            <button type="submit"
+                    class="btn green">
+
+                Entrar
+
+            </button>
+
+        </form>
 
         <div class="link">
             Não possui conta?
+
             <a href="/Home/Cadastro">
                 Cadastrar
             </a>
         </div>
+
     </div>
 </div>
