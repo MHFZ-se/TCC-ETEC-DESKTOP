@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\views\\home\\analise.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\views\\home\\analise.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\views\\home\\cadastro.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\views\\home\\cadastro.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\views\\_viewstart.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\views\\_viewstart.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\views\\_viewimports.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\views\\_viewimports.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\outro\\tcc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9623C583-BCD3-4B4F-955B-04024C5AF6C8}|Outro\\TCC.csproj|solutionrelative:outro\\tcc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Outro\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Outro\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:15:23.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Program.cs",
+              "RelativeDocumentMoniker": "Outro\\Program.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Program.cs",
+              "RelativeToolTip": "Outro\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:15:06.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Startup.cs",
+              "RelativeDocumentMoniker": "Outro\\Startup.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Startup.cs",
+              "RelativeToolTip": "Outro\\Startup.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:15:00.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Models\\Plant.cs",
+              "RelativeDocumentMoniker": "Outro\\Models\\Plant.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Models\\Plant.cs",
+              "RelativeToolTip": "Outro\\Models\\Plant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:13:19.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Outro\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Outro\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:13:16.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cadastro.cshtml",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Views\\Home\\cadastro.cshtml",
+              "RelativeDocumentMoniker": "Outro\\Views\\Home\\cadastro.cshtml",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Views\\Home\\cadastro.cshtml",
+              "RelativeToolTip": "Outro\\Views\\Home\\cadastro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T11:13:09.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "analise.cshtml",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Views\\Home\\analise.cshtml",
+              "RelativeDocumentMoniker": "Outro\\Views\\Home\\analise.cshtml",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Views\\Home\\analise.cshtml",
+              "RelativeToolTip": "Outro\\Views\\Home\\analise.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T11:13:04.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Outro\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Outro\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T11:12:56.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Outro\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Outro\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T11:12:55.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TCC",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\TCC.csproj",
+              "RelativeDocumentMoniker": "Outro\\TCC.csproj",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\Outro\\TCC.csproj",
+              "RelativeToolTip": "Outro\\TCC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-20T11:12:41.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

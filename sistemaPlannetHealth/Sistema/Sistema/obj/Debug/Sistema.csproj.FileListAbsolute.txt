@@ -1,0 +1,10 @@
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\bin\Debug\Sistema.exe.config
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\bin\Debug\Sistema.exe
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\bin\Debug\Sistema.pdb
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.Form1.resources
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.exe
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.pdb
