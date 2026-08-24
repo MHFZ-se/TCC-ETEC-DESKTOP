@@ -1,0 +1,1 @@
+Este  projeto é um Windows form application utilizando o .NET e a biblioteca SQL MySQL.Da 26.7.0

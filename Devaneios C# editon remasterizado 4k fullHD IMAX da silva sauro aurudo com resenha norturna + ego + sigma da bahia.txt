@@ -1,0 +1,35 @@
+Ta 
+
+eu tenho que estudar classes, objetos, herança e polimorfismo, além de sql e o funcionamentos geral dos Windows forms
+o sistema 
+
+SQL:
+ para interagir com o banco por meio do my sql é nescessaria a construção de  de um MySqlCommand que recebe uma query e uma fonte de dado, que em resumo são as informações do banco 
+
+1-
+MySqlConnection é o comando responsável pela fonte e recebe uma string com as coisas do banco da seguinte maneira:
+	datasource='Servidor';
+	username='nome do usuario';
+	password='senha';
+	database='nome do banco';
+
+Daí você tem q ter uma string e cria a conexão com C maiúsculo e faz assim
+	Conexao = new MySqlConnection(stringcom os dados);
+2-
+
+cê faz uma query do jeito padrão do sql dentro de uma strind, tipo assim
+	string queryResenha = "SELECT FROM usuário WHERE resenha = TRUE";
+
+3-
+
+Daí junta tudo
+	MySqlCommand analizarPossivelResenha = new MySqlCommand (queryResenha,Conexao);
+
+4 
+daí pra poder executar da forma mais porca faz assim
+
+	Conexao.Open();
+	analizarPossivelResenha.ExecuteReader();
+	Conexao.Close();
+
+mas normalmente a gnt usa try catch final ou um if porqueira junto de Exception pra pode não quebra td
