@@ -1,7 +1,7 @@
 Ta 
 
-eu tenho que estudar classes, objetos, herança e polimorfismo, além de sql e o funcionamentos geral dos Windows forms
-o sistema 
+eu tenho que estudar encapsulamento, classes, objetos, herança e polimorfismo, além de sql e o funcionamentos geral dos Windows forms
+Tô me arrependendo amargamente de não te salvado as coisas do meu pc do ano passado, bom q eu pelo menos fixo melhor esses treco e aprendo mesmo
 
 SQL:
  para interagir com o banco por meio do my sql é nescessaria a construção de  de um MySqlCommand que recebe uma query e uma fonte de dado, que em resumo são as informações do banco 
@@ -33,3 +33,12 @@ daí pra poder executar da forma mais porca faz assim
 	Conexao.Close();
 
 mas normalmente a gnt usa try catch final ou um if porqueira junto de Exception pra pode não quebra td
+
+Anotações:
+
+Dava pra tenta criar uma classe com
+da pra altera o comportamento de uma string com $ daí fica string = $"aura={resenha"}
+
+try{}
+catch(Exception ex){
+message.Show(""+ ex.Message);}
