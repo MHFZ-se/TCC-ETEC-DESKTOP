@@ -1,6 +1,6 @@
 ﻿namespace Sistema
 {
-    partial class Form1
+    partial class Index
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -64,7 +64,7 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "button1";
+            this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -74,6 +74,7 @@
             this.inputEmail.Name = "inputEmail";
             this.inputEmail.Size = new System.Drawing.Size(100, 20);
             this.inputEmail.TabIndex = 3;
+            this.inputEmail.TextChanged += new System.EventHandler(this.inputEmail_TextChanged);
             // 
             // inputSenha
             // 
@@ -124,7 +125,7 @@
             this.panel2.Size = new System.Drawing.Size(584, 261);
             this.panel2.TabIndex = 8;
             // 
-            // Form1
+            // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -132,7 +133,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.MinimumSize = new System.Drawing.Size(600, 400);
-            this.Name = "Form1";
+            this.Name = "Index";
             this.Text = "Form1";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

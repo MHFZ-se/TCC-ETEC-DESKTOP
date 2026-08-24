@@ -10,21 +10,28 @@ using System.Windows.Forms;
 
 namespace Sistema
 {
-    public partial class Form1 : Form
+    public partial class Index : Form
     {
-        public Form1()
+        public Index()
         {
             InitializeComponent();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string email, senha;
-            email = inputEmail.Text;
-            senha = inputSenha.Text;
+            Usuario user = new Usuario();
+            user.Email = inputEmail.Text;
+            user.senha = inputSenha.Text;
+            user.login();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void inputEmail_TextChanged(object sender, EventArgs e)
         {
 
         }
