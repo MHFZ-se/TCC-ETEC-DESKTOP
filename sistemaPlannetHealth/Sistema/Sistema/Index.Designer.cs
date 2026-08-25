@@ -37,6 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.caixaRetorno = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -112,6 +113,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.caixaRetorno);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.btnLogin);
             this.panel2.Controls.Add(this.inputSenha);
@@ -124,6 +126,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(584, 261);
             this.panel2.TabIndex = 8;
+            // 
+            // caixaRetorno
+            // 
+            this.caixaRetorno.AutoSize = true;
+            this.caixaRetorno.Location = new System.Drawing.Point(342, 150);
+            this.caixaRetorno.Name = "caixaRetorno";
+            this.caixaRetorno.Size = new System.Drawing.Size(106, 13);
+            this.caixaRetorno.TabIndex = 7;
+            this.caixaRetorno.Text = "Não tem uma conta?";
             // 
             // Index
             // 
@@ -152,6 +163,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label caixaRetorno;
     }
 }
 

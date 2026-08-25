@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\verificartipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\verificartipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\werkzeugcopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\werkzeugcopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\werkzeugcopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\homecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\homecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\verificartipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\verificartipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,37 +50,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WerkZeugCopia.cs",
-              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\WerkZeugCopia.cs",
-              "RelativeDocumentMoniker": "Sistema\\WerkZeugCopia.cs",
-              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\WerkZeugCopia.cs",
-              "RelativeToolTip": "Sistema\\WerkZeugCopia.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T16:19:05.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "VerificarTipo.cs",
-              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\VerificarTipo.cs",
-              "RelativeDocumentMoniker": "Sistema\\VerificarTipo.cs",
-              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\VerificarTipo.cs",
-              "RelativeToolTip": "Sistema\\VerificarTipo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Title": "HomeCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\HomeCliente.cs",
+              "RelativeDocumentMoniker": "Sistema\\HomeCliente.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\HomeCliente.cs [Design]",
+              "RelativeToolTip": "Sistema\\HomeCliente.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T14:25:05.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T17:31:22.794Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Cliente.cs",
               "RelativeDocumentMoniker": "Sistema\\Cliente.cs",
@@ -89,46 +79,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "VerificarTipo.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\VerificarTipo.cs",
+              "RelativeDocumentMoniker": "Sistema\\VerificarTipo.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\VerificarTipo.cs",
+              "RelativeToolTip": "Sistema\\VerificarTipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:25:05.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WerkZeugCopia.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\WerkZeugCopia.cs",
+              "RelativeDocumentMoniker": "Sistema\\WerkZeugCopia.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\WerkZeugCopia.cs",
+              "RelativeToolTip": "Sistema\\WerkZeugCopia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:19:05.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Conexao.cs",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Conexao.cs",
               "RelativeDocumentMoniker": "Sistema\\Conexao.cs",
               "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Conexao.cs",
               "RelativeToolTip": "Sistema\\Conexao.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T01:39:33.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Usuario.cs",
               "RelativeDocumentMoniker": "Sistema\\Usuario.cs",
               "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Usuario.cs",
               "RelativeToolTip": "Sistema\\Usuario.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwB4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T01:29:35.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.cs",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Index.cs",
               "RelativeDocumentMoniker": "Sistema\\Index.cs",
               "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Index.cs",
               "RelativeToolTip": "Sistema\\Index.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAvwBwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-20T13:06:03.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Index.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Index.cs",
               "RelativeDocumentMoniker": "Sistema\\Index.cs",
@@ -140,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\App.config",
               "RelativeDocumentMoniker": "Sistema\\App.config",
@@ -153,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Program.cs",
               "RelativeDocumentMoniker": "Sistema\\Program.cs",

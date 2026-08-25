@@ -64,7 +64,7 @@ namespace Sistema
 
         public bool validarSenha(string senha, string senhaBanco)
         {
-            if (senha == senhaBanco)
+            if (Generate(senha) == senhaBanco)
             {
                 return true;
             }

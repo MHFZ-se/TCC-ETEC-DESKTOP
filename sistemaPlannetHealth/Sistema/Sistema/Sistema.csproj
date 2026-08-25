@@ -94,6 +94,12 @@
   <ItemGroup>
     <Compile Include="Cliente.cs" />
     <Compile Include="Conexao.cs" />
+    <Compile Include="HomeCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeCliente.Designer.cs">
+      <DependentUpon>HomeCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Index.cs">
       <SubType>Form</SubType>
     </Compile>

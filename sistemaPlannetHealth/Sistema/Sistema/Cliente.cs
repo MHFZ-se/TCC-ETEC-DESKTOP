@@ -26,7 +26,7 @@ namespace Sistema
             MySqlCommand comando = new MySqlCommand(query, conectar);
             comando.ExecuteNonQuery();
 
-            fecharconexao();
+            fecharConexao();
         }
 
        

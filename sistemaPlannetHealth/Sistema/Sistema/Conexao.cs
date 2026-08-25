@@ -28,11 +28,11 @@ namespace Sistema
         public void inicializar()
         {
             servidor = "127.0.0.1";
-            database = "volei";
+            database = "planethealth";
             usuario = "root";
             senha = "";
             string conexaostring;
-            conexaostring = "SERVER=" + servidor + ";" + "DATABASE=" + database + ";" + "UID=" + usuario + ";" + "PASSWORD=" + senha + ";";
+            conexaostring = $"SERVER={servidor};DATABASE={database};UID={usuario};PASSWORD={senha};";
             conectar = new MySqlConnection(conexaostring);
         }
 
@@ -50,7 +50,7 @@ namespace Sistema
             }
         }
 
-        public bool fecharconexao()
+        public bool fecharConexao()
         {
             try
             {

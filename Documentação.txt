@@ -1,1 +1,11 @@
 Este  projeto é um Windows form application utilizando o .NET e a biblioteca SQL MySQL.Da 26.7.0
+
+o usuário preenche os campos de email e senha 
+o sistema salva os valores na classe usuário, 
+o sistema busca no banco um email correspondente
+se tiver puxa o id e o salva
+os sistema verifica se a senha esta correta
+	o sistema faz o hash e compara a senha, a partir de uma função
+se a senha bater o sistema verifica o status adm
+se for adm: home adm
+se for cliente: home cliente
