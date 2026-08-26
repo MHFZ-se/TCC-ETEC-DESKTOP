@@ -17,6 +17,7 @@ namespace Sistema
             InitializeComponent();
         }
         Usuario user = new Usuario();
+        WerkzeugCopia wkz = new WerkzeugCopia();
         private void btnLogin_Click(object sender, EventArgs e)
         {
             
@@ -27,7 +28,6 @@ namespace Sistema
             else
             {
                 user.Email = inputEmail.Text;
-                caixaRetorno.Text = user.Email + user.Senha;
                 /*buscar no banco */
                 user.login(inputSenha.Text);
                 //caixaRetorno.Text = user.abc[(1),("nome")];
@@ -36,7 +36,7 @@ namespace Sistema
 
         private void button1_Click(object sender, EventArgs e)
         {
-            caixaRetorno.Text = Convert.ToString(user.Id);
+            
         }
 
         private void inputEmail_TextChanged(object sender, EventArgs e)

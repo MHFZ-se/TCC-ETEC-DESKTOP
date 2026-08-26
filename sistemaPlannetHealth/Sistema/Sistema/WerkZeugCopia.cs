@@ -62,16 +62,66 @@ namespace Sistema
             return salt.ToString();
         }
 
-        public bool validarSenha(string senha, string senhaBanco)
+        public bool validarSenha(string senhaDigitada, string senhaBanco)
         {
-            if (Generate(senha) == senhaBanco)
+            try
             {
-                return true;
+                // Divide o hash em:
+                // [0] = scrypt:32768:8:1
+                // [1] = salt
+                // [2] = hash
+                string[] partes = senhaBanco.Split('$');
+
+                if (partes.Length != 3)
+                    return false;
+
+                string parametros = partes[0];
+                string salt = partes[1];
+                string hashBanco = partes[2];
+
+                // Remove "scrypt:"
+                parametros = parametros.Replace("scrypt:", "");
+
+                // Divide os parâmetros
+                string[] valores = parametros.Split(':');
+
+                int n = int.Parse(valores[0]);
+                int r = int.Parse(valores[1]);
+                int p = int.Parse(valores[2]);
+
+                // Converte a senha digitada e o salt para bytes
+                byte[] senhaBytes = Encoding.UTF8.GetBytes(senhaDigitada);
+                byte[] saltBytes = Encoding.UTF8.GetBytes(salt);
+
+                // Gera o hash usando o MESMO salt do banco
+                byte[] hashBytes = SCrypt.Generate(
+                    senhaBytes,
+                    saltBytes,
+                    n,
+                    r,
+                    p,
+                    64
+                );
+
+                // Converte para hexadecimal
+                string hashGerado = BitConverter
+                    .ToString(hashBytes)
+                    .Replace("-", "")
+                    .ToLowerInvariant();
+
+                // Compara com o hash armazenado
+                return hashGerado == hashBanco;
             }
-            else
+            catch
             {
                 return false;
             }
+        }
+
+
+        public string morfarSenha(string senha)
+        {
+            return Generate(senha);
         }
     }
 }
