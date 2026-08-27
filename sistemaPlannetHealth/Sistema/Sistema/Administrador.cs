@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Sistema
 {
-    internal class Administrador
+    internal class Administrador : Usuario
     {
+        public void salvarDados(int id, string email, bool adm)
+        {
+            Id = id;
+            Email = email;
+            Adm = adm;
+        }
     }
 }
