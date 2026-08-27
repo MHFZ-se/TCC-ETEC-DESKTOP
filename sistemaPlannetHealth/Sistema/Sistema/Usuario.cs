@@ -23,9 +23,9 @@ namespace Sistema
         public  bool Adm {  get; set; }
 
 
-        public void login(string senhaForm)
+        public void login(string senhaForm, string emailform)
         {//verifica se o email existe no banco
-            string queryProcurar = $"SELECT * FROM USUARIO WHERE email = '{Email}';";
+            string queryProcurar = $"SELECT * FROM USUARIO WHERE email = '{emailform}';";
 
             try
             {
@@ -38,12 +38,20 @@ namespace Sistema
                 {
                     // Usuário encontrado
                     Id = Convert.ToInt32(resultado["id"]);
-                    
                     Senha = Convert.ToString(resultado["senha"]);
+                    Adm = Convert.ToBoolean(resultado["adm"]);
                     if (wkz.validarSenha(senhaForm,Senha))
                     {
-                        HomeCliente avancar = new HomeCliente();
-                        avancar.Show();
+                        if (Adm)
+                        {
+                            HomeAdm avancar = new HomeAdm();
+                            avancar.Show();
+                        }
+                        else
+                        {
+                            HomeCliente avancar = new HomeCliente();
+                            avancar.Show();
+                        }
                     }
                     else
                     {
@@ -57,7 +65,7 @@ namespace Sistema
                 else
                 {
                     // Usuário não encontrado
-                    MessageBox.Show("algo deu errado com a verificação do banco");
+                    MessageBox.Show("O email não existe no banco, por favor tente de novo ou crie uma conta");
                     Index voltar = new Index();
                     voltar.Show();
                 }

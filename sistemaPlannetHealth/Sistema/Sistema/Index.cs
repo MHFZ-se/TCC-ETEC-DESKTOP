@@ -27,9 +27,8 @@ namespace Sistema
             }
             else
             {
-                user.Email = inputEmail.Text;
                 /*buscar no banco */
-                user.login(inputSenha.Text);
+                user.login(inputSenha.Text, inputEmail.Text);
                 //caixaRetorno.Text = user.abc[(1),("nome")];
             }
         }

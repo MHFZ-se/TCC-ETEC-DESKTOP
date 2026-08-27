@@ -39,7 +39,6 @@ C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\S
 C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.csproj.AssemblyReference.cache
-C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.Form1.resources
 C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.Properties.Resources.resources
 C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.csproj.GenerateResource.cache
 C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
@@ -76,3 +75,4 @@ C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Si
 C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.csproj.Up2Date
+C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.Index.resources

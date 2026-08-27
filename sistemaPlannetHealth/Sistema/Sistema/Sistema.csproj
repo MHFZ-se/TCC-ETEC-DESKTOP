@@ -92,8 +92,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrador.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Conexao.cs" />
+    <Compile Include="HomeAdm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeAdm.Designer.cs">
+      <DependentUpon>HomeAdm.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeCliente.cs">
       <SubType>Form</SubType>
     </Compile>
