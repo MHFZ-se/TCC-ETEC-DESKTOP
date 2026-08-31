@@ -57,5 +57,25 @@ namespace Sistema
         {
 
         }
+
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            if (inputEmail.Text == "" | inputSenha.Text == "")
+            {
+                MessageBox.Show("Por favor preencha todos os campos!");
+            }
+            else
+            {
+                /*buscar no banco */
+                user.login(inputSenha.Text, inputEmail.Text);
+                //caixaRetorno.Text = user.abc[(1),("nome")];
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+          
+        }
     }
 }

@@ -93,8 +93,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Administrador.cs" />
+    <Compile Include="ButtomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Cliente.cs" />
     <Compile Include="Conexao.cs" />
+    <Compile Include="CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExibirDados.cs" />
     <Compile Include="HomeAdm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,9 +122,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tabelasensor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tabelasensor.Designer.cs">
+      <DependentUpon>tabelasensor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tabelausuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tabelausuario.Designer.cs">
+      <DependentUpon>tabelausuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usuario.cs" />
     <Compile Include="VerificarTipo.cs" />
     <Compile Include="WerkZeugCopia.cs" />
+    <EmbeddedResource Include="HomeAdm.resx">
+      <DependentUpon>HomeAdm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +152,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="tabelasensor.resx">
+      <DependentUpon>tabelasensor.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
-    "netcoreapp3.0": {
+    ".NETCoreApp,Version=v3.0": {
       "Google.Protobuf/3.5.1": {
         "type": "package",
         "dependencies": {
@@ -4953,24 +4953,24 @@
     }
   },
   "projectFileDependencyGroups": {
-    "netcoreapp3.0": [
+    ".NETCoreApp,Version=v3.0": [
       "MySql.Data >= 8.0.13"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Henri.Fudali\\.nuget\\packages\\": {}
+    "C:\\Users\\ruang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\não sei mexer nisso\\Outro\\TCC.csproj",
+      "projectUniqueName": "C:\\Users\\ruang\\OneDrive\\Documentos\\caio_tcc\\TCC-ETEC-DESKTOP\\não sei mexer nisso\\Outro\\TCC.csproj",
       "projectName": "TCC",
-      "projectPath": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\não sei mexer nisso\\Outro\\TCC.csproj",
-      "packagesPath": "C:\\Users\\Henri.Fudali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\não sei mexer nisso\\Outro\\obj\\",
+      "projectPath": "C:\\Users\\ruang\\OneDrive\\Documentos\\caio_tcc\\TCC-ETEC-DESKTOP\\não sei mexer nisso\\Outro\\TCC.csproj",
+      "packagesPath": "C:\\Users\\ruang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ruang\\OneDrive\\Documentos\\caio_tcc\\TCC-ETEC-DESKTOP\\não sei mexer nisso\\Outro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Henri.Fudali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ruang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4982,7 +4982,6 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "framework": "netcoreapp3.0",
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {}
         }
@@ -4997,11 +4996,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "framework": "netcoreapp3.0",
         "targetAlias": "netcoreapp3.0",
         "dependencies": {
           "MySql.Data": {
@@ -5046,7 +5044,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315\\RuntimeIdentifierGraph.json"
       }
     }
   }
