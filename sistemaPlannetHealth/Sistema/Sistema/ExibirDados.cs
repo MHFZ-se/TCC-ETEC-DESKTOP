@@ -1,15 +1,17 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Sistema
 {
     internal class ExibirDados : Conexao
     {
-        Usuario user = new Usuario();   
+        Administrador adm = new Administrador();       
 
         public DataTable exibirSensores()
         {
@@ -22,7 +24,8 @@ namespace Sistema
             }
             catch (Exception ex) 
             {
-
+                MessageBox.Show(ex.Message);
+                return sensores;
             }
             finally
             {
@@ -30,6 +33,11 @@ namespace Sistema
 
             }
             
+        }
+
+        public MySqlDataAdapter sensores()
+        {
+            return new MySqlDataAdapter();
         }
     }
 }

@@ -155,6 +155,9 @@
     <EmbeddedResource Include="tabelasensor.resx">
       <DependentUpon>tabelasensor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="tabelausuario.resx">
+      <DependentUpon>tabelausuario.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

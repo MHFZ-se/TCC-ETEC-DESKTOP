@@ -22,6 +22,8 @@ namespace Sistema
         public int Id { get; set; }
         public  bool Adm {  get; set; }
 
+        public string Nome { get; set; }
+
 
         public void login(string senhaForm, string emailform)
         {//verifica se o email existe no banco
@@ -40,17 +42,22 @@ namespace Sistema
                     Id = Convert.ToInt32(resultado["id"]);
                     Senha = Convert.ToString(resultado["senha"]);
                     Adm = Convert.ToBoolean(resultado["adm"]);
+                    Nome = Convert.ToString(resultado["nome"]);
                     if (wkz.validarSenha(senhaForm,Senha))
                     {
                         if (Adm)
                         {
-                            HomeAdm avancar = new HomeAdm();
+                            Administrador adm = new Administrador();
+                            adm.salvarDados(Id, Email, Adm, Nome);
+                            //como o adm conseguiu logar e os dados tão salvos em user e a gente vai ta usando a classe do adm a partir de agor tem q passar pro adm
+                            
+                            HomeAdm avancar = new HomeAdm(adm);
                             avancar.Show();
+                            
                         }
                         else
                         {
-                            HomeCliente avancar = new HomeCliente();
-                            avancar.Show();
+                            MessageBox.Show("Esta é uma conta de cliente, caso queira acessar sua conta use nosso website: www.planethealth.com.br");
                         }
                     }
                     else

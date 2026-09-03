@@ -8,11 +8,12 @@ namespace Sistema
 {
     internal class Administrador : Usuario
     {
-        public void salvarDados(int id, string email, bool adm)
+        public void salvarDados(int id, string email, bool adm, string nome)
         {
             Id = id;
             Email = email;
             Adm = adm;
+            Nome = nome;
         }
     }
 }

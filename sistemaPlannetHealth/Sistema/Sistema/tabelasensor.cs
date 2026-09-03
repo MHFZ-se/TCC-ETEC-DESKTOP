@@ -15,6 +15,7 @@ namespace Sistema
         public tabelasensor()
         {
             InitializeComponent();
+            ExibirDados tabelas = new ExibirDados();
         }
     }
 }

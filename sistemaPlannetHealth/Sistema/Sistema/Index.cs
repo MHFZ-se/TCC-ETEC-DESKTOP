@@ -66,8 +66,14 @@ namespace Sistema
             }
             else
             {
+                try
+                {
+
+                }
+                catch { }
                 /*buscar no banco */
                 user.login(inputSenha.Text, inputEmail.Text);
+                Hide();
                 //caixaRetorno.Text = user.abc[(1),("nome")];
             }
         }
@@ -76,6 +82,16 @@ namespace Sistema
         {
 
           
+        }
+
+        private void customPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Index_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
