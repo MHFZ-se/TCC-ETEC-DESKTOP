@@ -35,9 +35,52 @@ namespace Sistema
             
         }
 
-        public MySqlDataAdapter sensores()
+        public DataTable sensores()
         {
-            return new MySqlDataAdapter();
+            try
+            {
+                abrirConexao();
+                DataTable tabela = new DataTable();
+                string sql = "SELECT * FROM sensore";
+                MySqlDataAdapter adaptador = new MySqlDataAdapter(sql, conectar);
+                adaptador.Fill(tabela);
+                return tabela;
+            }
+            catch (System.Exception ex) 
+            { 
+                MessageBox.Show(ex.Message);
+                return null;
+            }
+            finally 
+            { 
+                fecharConexao();
+                
+
+            }
+        }
+
+        public DataTable usuarios()
+        {
+            try
+            {
+                abrirConexao();
+                DataTable tabela = new DataTable();
+                string sql = "SELECT id, nome, email, telefone, adm  FROM usuario";
+                MySqlDataAdapter adaptador = new MySqlDataAdapter(sql, conectar);
+                adaptador.Fill(tabela);
+                return tabela;
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return null;
+            }
+            finally
+            {
+                fecharConexao();
+
+
+            }
         }
     }
 }

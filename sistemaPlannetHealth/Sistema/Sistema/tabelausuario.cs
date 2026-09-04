@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Sistema
 {
-    public partial class tabelausuario : Form
+    public partial class tabelaUsuario : Form
     {
-        public tabelausuario()
+        internal tabelaUsuario()
         {
             InitializeComponent();
+            ExibirDados tabelas = new ExibirDados();
+            Administrador adm = Sessao.administrador;
+            dataGridView1.DataSource = tabelas.usuarios();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            HomeAdm proxima = new HomeAdm();
+
         }
     }
 }

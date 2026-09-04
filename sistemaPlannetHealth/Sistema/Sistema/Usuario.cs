@@ -49,9 +49,10 @@ namespace Sistema
                         {
                             Administrador adm = new Administrador();
                             adm.salvarDados(Id, Email, Adm, Nome);
+                            Sessao.administrador = adm;
                             //como o adm conseguiu logar e os dados tão salvos em user e a gente vai ta usando a classe do adm a partir de agor tem q passar pro adm
-                            
-                            HomeAdm avancar = new HomeAdm(adm);
+
+                            HomeAdm avancar = new HomeAdm();
                             avancar.Show();
                             
                         }

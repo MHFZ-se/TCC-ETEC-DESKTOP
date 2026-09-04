@@ -16,6 +16,7 @@ namespace Sistema
         {
             InitializeComponent();
             ExibirDados tabelas = new ExibirDados();
+            dataGridView1.DataSource = tabelas.sensores();
         }
     }
 }

@@ -12,10 +12,10 @@ namespace Sistema
 {
     internal partial class HomeAdm : Form
     {
-        public HomeAdm(Administrador adm)
+        public HomeAdm()
         {
             InitializeComponent();
-
+            Administrador adm = Sessao.administrador;
             labelNome.Text = adm.Nome;
         }
 
@@ -47,15 +47,15 @@ namespace Sistema
         private void buttonPanel1_Click(object sender, EventArgs e)
         {
             Hide();
-            tabelasensor khab = new tabelasensor();
-            khab.Show();
+            tabelasensor proxima = new tabelasensor();
+            proxima.Show();
         }
 
         private void buttonPanel2_Click(object sender, EventArgs e)
         {
             Hide();
-            tabelausuario fvj = new tabelausuario();
-            fvj.Show();
+            tabelaUsuario proxima = new tabelaUsuario();
+            proxima.Show();
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -69,6 +69,11 @@ namespace Sistema
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }

@@ -158,3 +158,4 @@ C:\Users\ruang\OneDrive\Documentos\caio_tcc\TCC-ETEC-DESKTOP\sistemaPlannetHealt
 C:\Users\ruang\OneDrive\Documentos\caio_tcc\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.exe.config
 C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.HomeAdm.resources
 C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.tabelasensor.resources
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.tabelausuario.resources
