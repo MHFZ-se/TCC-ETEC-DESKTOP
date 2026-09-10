@@ -24,6 +24,7 @@ namespace Sistema
         {
             Hide();
             HomeAdm proxima = new HomeAdm();
+            proxima.Show();
 
         }
     }

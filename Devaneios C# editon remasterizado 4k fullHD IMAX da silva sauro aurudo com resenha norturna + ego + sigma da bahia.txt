@@ -42,3 +42,34 @@ da pra altera o comportamento de uma string com $ daí fica string = $"aura={res
 try{}
 catch(Exception ex){
 message.Show(""+ ex.Message);}
+
+3/9 
+umas mudanças ocorreram e ñ vai ter usuário no descktop, tira a redundância e limita mais o escopo(essa porra já devia ta pronta mas ok)
+vou tentar exibir as tabelas no mesmo form em
+foda-se vo não, vo cria uma pra cada e vai pro inferno
+
+
+ADMNISTRADOR:
+Atendimento ao cliente
+	problemas com login
+	duvidas sobre o site
+	chat em geral
+	salvar o tipo do problema
+
+Visualização e alteração de tabelas
+	Sistema de logs de registro		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
