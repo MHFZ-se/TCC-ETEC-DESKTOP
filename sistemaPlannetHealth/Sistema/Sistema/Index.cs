@@ -72,8 +72,9 @@ namespace Sistema
                 }
                 catch { }
                 /*buscar no banco */
+                
                 user.login(inputSenha.Text, inputEmail.Text);
-                Hide();
+                
                 //caixaRetorno.Text = user.abc[(1),("nome")];
             }
         }

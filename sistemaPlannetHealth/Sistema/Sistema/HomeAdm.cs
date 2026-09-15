@@ -77,5 +77,17 @@ namespace Sistema
         {
 
         }
+
+        private void buttonPanel3_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void buttonPanel3_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Chats proxima = new Chats();
+            proxima.Show();
+        }
     }
 }

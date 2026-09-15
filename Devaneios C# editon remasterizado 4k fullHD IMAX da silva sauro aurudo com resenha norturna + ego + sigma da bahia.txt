@@ -55,13 +55,18 @@ Atendimento ao cliente
 	duvidas sobre o site
 	chat em geral
 	salvar o tipo do problema
+bugs
+	dentro do site o usuário pode relatar um problema, este é salvo em uma tabela problemas(tipo, datahora, estado,id_cliente, adm_que_resolvel{nullable})
 
 Visualização e alteração de tabelas
 	Sistema de logs de registro		
 
 
-
-
+chat com o cliente
+	dentro da rota tutorial de usuário terá um botão de suporte, na rota suporte uma das opções o destinos acaba por ser o atendimento ao cliente 
+	quando começa o atendimento o sistema vincula um adm disponível aleatorio ao cliente e cria um novo campo na tabela atendimento que tem (id, id_adm, id_cliente, data de abertura, estado e assunto) ao as mensagens são salvas em uma tabela mensagens contendo(id_conversar, remetente{cliente ou adm}, texto ,datahora)
+	O usuário conversa com o adm até que o pe
+adicionar o campo disponivel
 
 
 

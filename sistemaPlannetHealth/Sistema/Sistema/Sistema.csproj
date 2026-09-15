@@ -96,6 +96,12 @@
     <Compile Include="ButtomPanel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Chats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chats.Designer.cs">
+      <DependentUpon>Chats.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs" />
     <Compile Include="Conexao.cs" />
     <Compile Include="CustomPanel.cs">
@@ -138,6 +144,9 @@
     <Compile Include="Usuario.cs" />
     <Compile Include="VerificarTipo.cs" />
     <Compile Include="WerkZeugCopia.cs" />
+    <EmbeddedResource Include="Chats.resx">
+      <DependentUpon>Chats.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeAdm.resx">
       <DependentUpon>HomeAdm.cs</DependentUpon>
     </EmbeddedResource>
