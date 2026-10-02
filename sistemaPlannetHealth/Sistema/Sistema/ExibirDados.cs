@@ -41,7 +41,7 @@ namespace Sistema
             {
                 abrirConexao();
                 DataTable tabela = new DataTable();
-                string sql = "SELECT * FROM sensore";
+                string sql = "SELECT * FROM sensor";
                 MySqlDataAdapter adaptador = new MySqlDataAdapter(sql, conectar);
                 adaptador.Fill(tabela);
                 return tabela;

@@ -19,11 +19,6 @@ namespace Sistema
             labelNome.Text = adm.Nome;
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void HomeAdm_Load(object sender, EventArgs e)
         {
 
