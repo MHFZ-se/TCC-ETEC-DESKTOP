@@ -202,3 +202,5 @@ C:\Users\caio.iha\Desktop\TCC2 - Copia\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sis
 C:\Users\caio.iha\Desktop\TCC2 - Copia\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.csproj.Up2Date
 C:\Users\caio.iha\Desktop\TCC2 - Copia\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.exe
 C:\Users\caio.iha\Desktop\TCC2 - Copia\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.pdb
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.Chats.resources
+C:\Users\Henri.Fudali\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.AtendimentoAoCliente.resources

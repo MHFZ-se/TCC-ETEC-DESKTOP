@@ -80,9 +80,14 @@ namespace Sistema
 
         private void buttonPanel3_Click(object sender, EventArgs e)
         {
-            Hide();
-            Chats proxima = new Chats();
+            
+            AtendimentoAoCliente proxima = new AtendimentoAoCliente();
             proxima.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

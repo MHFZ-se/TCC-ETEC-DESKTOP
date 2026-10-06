@@ -37,13 +37,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel_conversa = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel_mensagem = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.panel_mensagem = new System.Windows.Forms.Panel();
+            this.flp_mensagens = new System.Windows.Forms.FlowLayoutPanel();
             this.pabel_barra_lateral.SuspendLayout();
             this.panel_cabecalho.SuspendLayout();
-            this.panel_conversa.SuspendLayout();
             this.panel_mensagem.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -133,34 +131,6 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "foto de perfil se tivet";
             // 
-            // panel_conversa
-            // 
-            this.panel_conversa.Controls.Add(this.label8);
-            this.panel_conversa.Controls.Add(this.panel_mensagem);
-            this.panel_conversa.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_conversa.Location = new System.Drawing.Point(161, 72);
-            this.panel_conversa.Name = "panel_conversa";
-            this.panel_conversa.Size = new System.Drawing.Size(1123, 659);
-            this.panel_conversa.TabIndex = 2;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(252, 183);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(104, 13);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Exibê as mensagens";
-            // 
-            // panel_mensagem
-            // 
-            this.panel_mensagem.Controls.Add(this.label7);
-            this.panel_mensagem.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_mensagem.Location = new System.Drawing.Point(0, 617);
-            this.panel_mensagem.Name = "panel_mensagem";
-            this.panel_mensagem.Size = new System.Drawing.Size(1123, 42);
-            this.panel_mensagem.TabIndex = 0;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -170,12 +140,30 @@
             this.label7.TabIndex = 7;
             this.label7.Text = "Digitar e enviar mensagens";
             // 
+            // panel_mensagem
+            // 
+            this.panel_mensagem.Controls.Add(this.label7);
+            this.panel_mensagem.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_mensagem.Location = new System.Drawing.Point(161, 650);
+            this.panel_mensagem.Name = "panel_mensagem";
+            this.panel_mensagem.Size = new System.Drawing.Size(1123, 81);
+            this.panel_mensagem.TabIndex = 0;
+            // 
+            // flp_mensagens
+            // 
+            this.flp_mensagens.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flp_mensagens.Location = new System.Drawing.Point(161, 72);
+            this.flp_mensagens.Name = "flp_mensagens";
+            this.flp_mensagens.Size = new System.Drawing.Size(1123, 578);
+            this.flp_mensagens.TabIndex = 2;
+            // 
             // Chats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 731);
-            this.Controls.Add(this.panel_conversa);
+            this.Controls.Add(this.flp_mensagens);
+            this.Controls.Add(this.panel_mensagem);
             this.Controls.Add(this.panel_cabecalho);
             this.Controls.Add(this.pabel_barra_lateral);
             this.Name = "Chats";
@@ -184,8 +172,6 @@
             this.pabel_barra_lateral.PerformLayout();
             this.panel_cabecalho.ResumeLayout(false);
             this.panel_cabecalho.PerformLayout();
-            this.panel_conversa.ResumeLayout(false);
-            this.panel_conversa.PerformLayout();
             this.panel_mensagem.ResumeLayout(false);
             this.panel_mensagem.PerformLayout();
             this.ResumeLayout(false);
@@ -196,8 +182,6 @@
 
         private System.Windows.Forms.Panel pabel_barra_lateral;
         private System.Windows.Forms.Panel panel_cabecalho;
-        private System.Windows.Forms.Panel panel_conversa;
-        private System.Windows.Forms.Panel panel_mensagem;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
@@ -205,7 +189,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel_mensagem;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.FlowLayoutPanel flp_mensagens;
     }
 }

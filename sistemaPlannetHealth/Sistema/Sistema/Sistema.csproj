@@ -93,6 +93,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Administrador.cs" />
+    <Compile Include="AtendimentoAoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtendimentoAoCliente.Designer.cs">
+      <DependentUpon>AtendimentoAoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atendimento.cs" />
+    <Compile Include="AtendimentoCliente.cs" />
     <Compile Include="ButtomPanel.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -144,6 +152,9 @@
     <Compile Include="Usuario.cs" />
     <Compile Include="VerificarTipo.cs" />
     <Compile Include="WerkZeugCopia.cs" />
+    <EmbeddedResource Include="AtendimentoAoCliente.resx">
+      <DependentUpon>AtendimentoAoCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Chats.resx">
       <DependentUpon>Chats.cs</DependentUpon>
     </EmbeddedResource>
