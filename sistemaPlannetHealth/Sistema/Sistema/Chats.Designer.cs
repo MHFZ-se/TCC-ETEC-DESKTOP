@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.pabel_barra_lateral = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel_cabecalho = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -40,48 +37,24 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel_mensagem = new System.Windows.Forms.Panel();
             this.flp_mensagens = new System.Windows.Forms.FlowLayoutPanel();
+            this.btn_voltar = new System.Windows.Forms.Button();
+            this.flp_atendimentos = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pabel_barra_lateral.SuspendLayout();
             this.panel_cabecalho.SuspendLayout();
             this.panel_mensagem.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pabel_barra_lateral
             // 
-            this.pabel_barra_lateral.Controls.Add(this.label2);
-            this.pabel_barra_lateral.Controls.Add(this.label1);
-            this.pabel_barra_lateral.Controls.Add(this.button1);
+            this.pabel_barra_lateral.Controls.Add(this.panel1);
+            this.pabel_barra_lateral.Controls.Add(this.flp_atendimentos);
             this.pabel_barra_lateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.pabel_barra_lateral.Location = new System.Drawing.Point(0, 0);
             this.pabel_barra_lateral.Name = "pabel_barra_lateral";
             this.pabel_barra_lateral.Size = new System.Drawing.Size(161, 731);
             this.pabel_barra_lateral.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 201);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(403, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Chamados/clientes mostra todos os chamados mas da prioridade pros abertos ainda";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "logo";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(12, 100);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 62);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "voltar";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // panel_cabecalho
             // 
@@ -107,7 +80,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(25, 56);
+            this.label5.Location = new System.Drawing.Point(147, 52);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 13);
             this.label5.TabIndex = 5;
@@ -157,6 +130,33 @@
             this.flp_mensagens.Size = new System.Drawing.Size(1123, 578);
             this.flp_mensagens.TabIndex = 2;
             // 
+            // btn_voltar
+            // 
+            this.btn_voltar.Location = new System.Drawing.Point(22, 72);
+            this.btn_voltar.Name = "btn_voltar";
+            this.btn_voltar.Size = new System.Drawing.Size(118, 62);
+            this.btn_voltar.TabIndex = 1;
+            this.btn_voltar.Text = "voltar";
+            this.btn_voltar.UseVisualStyleBackColor = true;
+            this.btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);
+            // 
+            // flp_atendimentos
+            // 
+            this.flp_atendimentos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flp_atendimentos.Location = new System.Drawing.Point(0, 0);
+            this.flp_atendimentos.Name = "flp_atendimentos";
+            this.flp_atendimentos.Size = new System.Drawing.Size(161, 731);
+            this.flp_atendimentos.TabIndex = 4;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btn_voltar);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(161, 162);
+            this.panel1.TabIndex = 5;
+            // 
             // Chats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -169,11 +169,11 @@
             this.Name = "Chats";
             this.Text = "Chats";
             this.pabel_barra_lateral.ResumeLayout(false);
-            this.pabel_barra_lateral.PerformLayout();
             this.panel_cabecalho.ResumeLayout(false);
             this.panel_cabecalho.PerformLayout();
             this.panel_mensagem.ResumeLayout(false);
             this.panel_mensagem.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -182,9 +182,6 @@
 
         private System.Windows.Forms.Panel pabel_barra_lateral;
         private System.Windows.Forms.Panel panel_cabecalho;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -192,5 +189,8 @@
         private System.Windows.Forms.Panel panel_mensagem;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.FlowLayoutPanel flp_mensagens;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btn_voltar;
+        private System.Windows.Forms.FlowLayoutPanel flp_atendimentos;
     }
 }
