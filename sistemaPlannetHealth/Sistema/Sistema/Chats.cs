@@ -18,16 +18,10 @@ namespace Sistema
             //AtendimentoCliente aaoc = new AtendimentoCliente();
             //aaoc.gerarColunasAtendimentos(aaoc.buscarAtendimentos(), flp_atendimentos);
             InitializeComponent();
-
-            MessageBox.Show("Abriu o formulário");
-
             AtendimentoCliente aaoc = new AtendimentoCliente();
 
             List<Atendimento> atendimentos = aaoc.buscarAtendimentos();
-
-            MessageBox.Show("Quantidade: " + atendimentos.Count);
-
-            aaoc.gerarColunasAtendimentos(atendimentos, flp_atendimentos);
+            aaoc.gerarColunasAtendimentos(atendimentos, flp_atendimentos, flp_mensagens, lbl_nome,lbl_problema);
 
 
         }

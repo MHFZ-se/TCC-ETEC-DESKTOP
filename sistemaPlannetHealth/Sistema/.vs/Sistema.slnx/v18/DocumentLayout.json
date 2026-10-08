@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\atendimentocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\atendimentocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,20 +15,24 @@
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\chats.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\atendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\atendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\chats.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\chats.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\homeadm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\homeadm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\atendimentocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\atendimentocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\atendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\atendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\henri.fudali\\documents\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,20 +46,59 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Cliente.cs",
+              "RelativeDocumentMoniker": "Sistema\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Cliente.cs",
+              "RelativeToolTip": "Sistema\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T12:53:50.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Usuario.cs",
+              "RelativeDocumentMoniker": "Sistema\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Usuario.cs",
+              "RelativeToolTip": "Sistema\\Usuario.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T12:52:17.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mensagem.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Mensagem.cs",
+              "RelativeDocumentMoniker": "Sistema\\Mensagem.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Mensagem.cs",
+              "RelativeToolTip": "Sistema\\Mensagem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T11:09:28.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Chats.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.Designer.cs",
               "RelativeDocumentMoniker": "Sistema\\Chats.Designer.cs",
               "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.Designer.cs",
               "RelativeToolTip": "Sistema\\Chats.Designer.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAUwMMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAUwMMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-07T14:56:15.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Atendimento.cs",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Atendimento.cs",
               "RelativeDocumentMoniker": "Sistema\\Atendimento.cs",
@@ -64,32 +111,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "AtendimentoCliente.cs",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\AtendimentoCliente.cs",
               "RelativeDocumentMoniker": "Sistema\\AtendimentoCliente.cs",
               "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\AtendimentoCliente.cs",
               "RelativeToolTip": "Sistema\\AtendimentoCliente.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAswDUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAawJgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T17:12:54.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeAdm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\HomeAdm.cs",
-              "RelativeDocumentMoniker": "Sistema\\HomeAdm.cs",
-              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\HomeAdm.cs [Design]",
-              "RelativeToolTip": "Sistema\\HomeAdm.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Chats.cs",
+              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs",
+              "RelativeDocumentMoniker": "Sistema\\Chats.cs",
+              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs",
+              "RelativeToolTip": "Sistema\\Chats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T14:12:51.652Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-10-08T13:17:47.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Chats.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs",
               "RelativeDocumentMoniker": "Sistema\\Chats.cs",
@@ -98,19 +146,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T14:10:14.269Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Chats.cs",
-              "DocumentMoniker": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs",
-              "RelativeDocumentMoniker": "Sistema\\Chats.cs",
-              "ToolTip": "C:\\Users\\Henri.Fudali\\Documents\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs",
-              "RelativeToolTip": "Sistema\\Chats.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwB0AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T14:26:47.689Z",
-              "EditorCaption": ""
             }
           ]
         }

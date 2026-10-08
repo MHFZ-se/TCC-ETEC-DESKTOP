@@ -94,5 +94,10 @@ namespace Sistema
         {
 
         }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+             user.login("12345678", "Henri@gmail");
+        }
     }
 }

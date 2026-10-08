@@ -9,21 +9,16 @@ using MySql.Data.MySqlClient;
 
 namespace Sistema
 {
-    internal class Cliente : Usuario
+    internal class Cliente 
     {
         //*A classe cliente serve para pessoas "comuns" que vão usar os sensores do nosso grupo: agricultores etc
         //cliente herda Usuario que por si só é uma herança de conexao*/
-        //public string Telefone { get; set; }
-        
-        
-        //public void salvarDados(int id, string nome, string email, string telefone, bool adm)
-        //{
-        //    Id = id;
-        //    Nome = nome;
-        //    Email = email;
-        //    Telefone = telefone;
-        //    Adm = adm;
-        //}
+        int id {  get; set; }
+        string nome { get; set; }   
+        string telefone { get; set; }
+        string email { get; set; }
+        string rota_foto_perfil {  get; set; }
+        bool adm {  get; set; }
 
        
 

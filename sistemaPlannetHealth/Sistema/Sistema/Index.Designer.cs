@@ -47,6 +47,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.inputEmail = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.customPanel1.SuspendLayout();
             this.customPanel2.SuspendLayout();
@@ -73,6 +74,7 @@
             this.customPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.customPanel1.BorderRadius = 15;
             this.customPanel1.BorderSize = 0;
+            this.customPanel1.Controls.Add(this.button1);
             this.customPanel1.Controls.Add(this.label1);
             this.customPanel1.Controls.Add(this.checkBox1);
             this.customPanel1.Controls.Add(this.label9);
@@ -283,6 +285,23 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(125)))), ((int)(((byte)(50)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(173, 458);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(280, 40);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "LoginTEste";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -326,6 +345,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
