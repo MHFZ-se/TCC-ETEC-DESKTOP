@@ -80,7 +80,8 @@ namespace Sistema
             {
                 System.Windows.Forms.Label lbl_atendimento = new System.Windows.Forms.Label();
                 lbl_atendimento.Text = atendimento.assunto.ToString();
-                lbl_atendimento.AutoSize = true;
+
+                lbl_atendimento.AutoSize = true;//mexer no estilo
                 lbl_atendimento.Cursor = Cursors.Hand;
                 lbl_atendimento.Click += (sender, e) =>
                 {
@@ -109,7 +110,7 @@ namespace Sistema
             {
                 System.Windows.Forms.Label lbl_mensagem = new System.Windows.Forms.Label();
                 lbl_mensagem.Text = mensagem.mensagem.ToString();
-                lbl_mensagem.AutoSize = true;
+                msgFLP.AutoSize = true;
                 //estilos
                 if (mensagem.adm)
                 {
@@ -143,6 +144,7 @@ namespace Sistema
             reader.Read();
             lbl_nome.Text = "Conversa com " + reader.GetString("nome");
             //lbl_assunto.Text = "Problema: " + reader.GetString("assunto");
+            fecharConexao();
 
         }
 
