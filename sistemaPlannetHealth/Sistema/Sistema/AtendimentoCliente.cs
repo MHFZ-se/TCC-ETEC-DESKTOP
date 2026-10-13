@@ -6,7 +6,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing;//permite "estiliza"
+using System.Drawing;
 
 namespace Sistema
 {
@@ -36,7 +36,8 @@ namespace Sistema
                 atendimento.data_abertura = reader.GetDateTime("data_abertura");
                 atendimento.estado = reader.GetString("estado");
                 atendimento.assunto = reader.GetString("assunto");
-                atendimentos.Add(atendimento); }
+                atendimentos.Add(atendimento);   
+            }
                
             reader.Close();
             fecharConexao();
@@ -69,12 +70,15 @@ namespace Sistema
             return mensagens;
         }
 
+
         public void gerarColunasAtendimentos( 
             List<Atendimento> atendimentos, 
             FlowLayoutPanel nomeFLP, 
             FlowLayoutPanel msgFLP,
+            FlowLayoutPanel chatFLP,
             System.Windows.Forms.Label lbl_nome,
             System.Windows.Forms.Label lbl_assunto)
+
         {
             foreach (Atendimento atendimento in atendimentos)
             {
@@ -85,49 +89,61 @@ namespace Sistema
                 lbl_atendimento.Cursor = Cursors.Hand;
                 lbl_atendimento.Click += (sender, e) =>
                 {
-                    carregarConversa(atendimento.id_atendimento, atendimento.id_cliente, msgFLP, lbl_nome, lbl_assunto);
+                    carregarConversa(atendimento.id_atendimento, atendimento.id_cliente, msgFLP, lbl_nome, lbl_assunto, chatFLP);
 
-                    
                 };
                 nomeFLP.Controls.Add(lbl_atendimento);
             }
         }
+        private int atendimentoAtual = 0;
 
-        public void carregarConversa
-            (
-                int id_atendimento,
-                int id_cliente,
-                FlowLayoutPanel msgFLP,
-                System.Windows.Forms.Label lbl_nome,
-                System.Windows.Forms.Label lbl_assunto
-
-            )
+        public void carregarConversa(
+        int id_atendimento,
+        int id_cliente,
+        FlowLayoutPanel msgFLP,
+        System.Windows.Forms.Label lbl_nome,
+        System.Windows.Forms.Label lbl_assunto,
+        FlowLayoutPanel chatFLP)
         {
-            msgFLP.Controls.Clear();
-            List<Mensagem> mensagens = this.buscarMensagens(id_atendimento);
-            carregarCliente(id_cliente, lbl_nome,lbl_assunto);
-            foreach (Mensagem mensagem in mensagens)
-            {
-                System.Windows.Forms.Label lbl_mensagem = new System.Windows.Forms.Label();
-                lbl_mensagem.Text = mensagem.mensagem.ToString();
-                msgFLP.AutoSize = true;
-                //estilos
-                if (mensagem.adm)
-                {
-                    lbl_mensagem.ForeColor = Color.Red;
-                 }
-                else
-                {
-                    lbl_mensagem.ForeColor = Color.Purple;
-                }
-                //lbl_mensagem.Click += (sender, e) =>
-                //{
-                //    carregarConversa(mensagem.id_atendimento, msgFLP);
-                //};
-                msgFLP.Controls.Add(lbl_mensagem);
+            atendimentoAtual = id_atendimento;
+            msgFLP.SuspendLayout();
 
+            try
+{
+    msgFLP.Controls.Clear();
+
+    msgFLP.FlowDirection = FlowDirection.TopDown;
+    msgFLP.WrapContents = false;
+    msgFLP.AutoScroll = true;
+
+    List<Mensagem> mensagens =
+        this.buscarMensagens(id_atendimento);
+
+    carregarCliente(id_cliente, lbl_nome, lbl_assunto);
+
+    foreach (Mensagem mensagem in mensagens)
+    {
+        AdicionarMensagem(msgFLP, mensagem);
+    }
+}
+            finally
+            {
+                msgFLP.ResumeLayout(true);
+                AjustarAoFundo(msgFLP);
+                if (msgFLP.Controls.Count > 0)
+                    msgFLP.ScrollControlIntoView(msgFLP.Controls[msgFLP.Controls.Count - 1]);
             }
         }
+        public class FlpSuave : FlowLayoutPanel
+        {
+            public FlpSuave()
+            {
+                DoubleBuffered = true;
+                ResizeRedraw = true;
+            }
+        }
+
+
 
         public void carregarCliente
             (
@@ -137,6 +153,7 @@ namespace Sistema
 
             )//tem q ser dessa forma grande se ñ da ruim
         {
+            
             Cliente cliente = new Cliente();
             MySqlCommand queryCliente = new MySqlCommand($"SELECT * FROM usuario Where id = {id_cliente}", conectar);
             abrirConexao();
@@ -149,6 +166,120 @@ namespace Sistema
         }
 
 
+
+        private void AdicionarMensagem(
+            FlowLayoutPanel flp,
+            Mensagem mensagem)
+        {
+            int largura = Math.Max(200, flp.ClientSize.Width - 35);
+            int larguraMaxima = Math.Max(100, largura * 2 / 3);
+
+            // Painel que ocupa uma linha inteira
+            Panel linha = new Panel();
+            linha.Width = largura;
+            linha.Height = 60;
+            linha.Margin = new Padding(0, 4, 0, 4);
+            linha.BackColor = flp.BackColor;
+
+            // Balão da mensagem
+            System.Windows.Forms.Label balao =
+            new System.Windows.Forms.Label();
+            balao.AutoSize = true;
+            balao.MaximumSize = new Size(larguraMaxima, 0);
+            balao.Text = mensagem.mensagem;
+            balao.Font = new Font("Segoe UI", 10);
+            balao.Padding = new Padding(12);
+
+            if (mensagem.adm)
+            {
+                balao.BackColor = Color.FromArgb(220, 237, 220);
+                balao.ForeColor = Color.FromArgb(22, 58, 36);
+            }
+            else
+            {
+                balao.BackColor = Color.White;
+                balao.ForeColor = Color.FromArgb(40, 40, 40);
+            }
+
+            // Calcula o tamanho do balão
+            Size tamanho = balao.GetPreferredSize(
+                new Size(larguraMaxima, 0));
+
+            balao.Size = tamanho;
+
+            // Administrador à direita; cliente à esquerda
+            int x = mensagem.adm
+                ? largura - balao.Width
+                : 0;
+
+            balao.Location = new Point(x, 0);
+
+            linha.Height = balao.Height + 8;
+            linha.Controls.Add(balao);
+
+            flp.Controls.Add(linha);
+        }
+        //private void FormChats_Resize(object sender, EventArgs e)
+        //{
+        //    foreach (Control linha in flp_mensagens.Controls)
+        //    {
+        //        linha.Width = flp_mensagens.ClientSize.Width - 35;
+        //        var balao = linha.Controls[0];
+        //        // reposiciona: adm à direita, cliente à esquerda
+        //        // (guarde a info em balao.Tag, p.ex. balao.Tag = mensagem.adm)
+        //        balao.Left = (bool)balao.Tag ? linha.Width - balao.Width : 0;
+        //    }
+        //}
+        public bool enviarMensagem(string texto, FlowLayoutPanel flp)
+        {
+            texto = texto.Trim();
+            if (texto == "" || atendimentoAtual == 0) return false;
+
+            Mensagem mensagem = new Mensagem();
+            mensagem.mensagem = texto;
+            mensagem.data_hora = DateTime.Now;
+            mensagem.id_remetente = adm.Id;
+            mensagem.adm = true;
+            mensagem.id_atendimento = atendimentoAtual;
+
+            MySqlCommand cmd = new MySqlCommand(
+                @"INSERT INTO mensagens (mensagem, data_hora, id_remetente, adm, id_atendimento)
+          VALUES (@mensagem, @data_hora, @id_remetente, @adm, @id_atendimento)", conectar);
+
+            cmd.Parameters.AddWithValue("@mensagem", mensagem.mensagem);
+            cmd.Parameters.AddWithValue("@data_hora", mensagem.data_hora);
+            cmd.Parameters.AddWithValue("@id_remetente", mensagem.id_remetente);
+            cmd.Parameters.AddWithValue("@adm", mensagem.adm);
+            cmd.Parameters.AddWithValue("@id_atendimento", mensagem.id_atendimento);
+
+            try
+            {
+                abrirConexao();
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {
+                fecharConexao();
+            }
+
+            // desenha o balão na tela sem recarregar tudo
+            AdicionarMensagem(flp, mensagem);
+            AjustarAoFundo(flp);
+            flp.ScrollControlIntoView(flp.Controls[flp.Controls.Count - 1]);
+
+            return true;
+        }
+        private void AjustarAoFundo(FlowLayoutPanel flp)
+        {
+            int total = 0;
+            foreach (Control c in flp.Controls)
+                total += c.Height + c.Margin.Vertical;
+
+            int espacoLivre = flp.ClientSize.Height - total - 10;
+
+            // se sobrar espaço, empurra tudo pra baixo; se não, padding mínimo
+            flp.Padding = new Padding(10, Math.Max(10, espacoLivre), 10, 10);
+        }
 
 
 
