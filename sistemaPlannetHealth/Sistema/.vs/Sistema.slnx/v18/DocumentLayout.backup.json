@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\chats.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\chats.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\windows 11\\onedrive\\\u00E1rea de trabalho\\nova pasta\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\atendimentocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\atendimentocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\windows 11\\onedrive\\\u00E1rea de trabalho\\nova pasta\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\tabelasensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\tabelasensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\windows 11\\onedrive\\\u00E1rea de trabalho\\nova pasta\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\tabelasensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\tabelasensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\chats.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\chats.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|c:\\users\\windows 11\\onedrive\\\u00E1rea de trabalho\\nova pasta\\tcc-etec-desktop\\sistemaplannethealth\\sistema\\sistema\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|solutionrelative:sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFD1A13A-F2BB-4C1A-A572-EC31487DF2A4}|Sistema\\Sistema.csproj|C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\sistema\\verificartipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,17 +86,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Chats.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs",
               "RelativeDocumentMoniker": "Sistema\\Chats.cs",
               "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs",
               "RelativeToolTip": "Sistema\\Chats.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAzwDUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAswL8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-08T13:17:47.33Z",
               "IsPinned": true,
@@ -92,16 +104,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Program.cs",
-              "RelativeDocumentMoniker": "Sistema\\Program.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Program.cs",
-              "RelativeToolTip": "Sistema\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Chats.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs",
+              "RelativeDocumentMoniker": "Sistema\\Chats.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs [Design]",
+              "RelativeToolTip": "Sistema\\Chats.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T23:41:28.53Z",
+              "WhenOpened": "2026-10-06T14:10:14.269Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tabelasensor.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\tabelasensor.cs",
+              "RelativeDocumentMoniker": "Sistema\\tabelasensor.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\tabelasensor.cs",
+              "RelativeToolTip": "Sistema\\tabelasensor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T22:43:43.344Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tabelasensor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\tabelasensor.cs",
+              "RelativeDocumentMoniker": "Sistema\\tabelasensor.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\tabelasensor.cs [Design]",
+              "RelativeToolTip": "Sistema\\tabelasensor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T22:43:33.006Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Index.cs",
+              "RelativeDocumentMoniker": "Sistema\\Index.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Index.cs [Design]",
+              "RelativeToolTip": "Sistema\\Index.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T22:05:36.438Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -111,51 +160,52 @@
               "RelativeDocumentMoniker": "Sistema\\Conexao.cs",
               "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Conexao.cs",
               "RelativeToolTip": "Sistema\\Conexao.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T23:40:31.877Z"
+              "WhenOpened": "2026-10-12T23:40:31.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AtendimentoCliente.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\AtendimentoCliente.cs",
               "RelativeDocumentMoniker": "Sistema\\AtendimentoCliente.cs",
               "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\AtendimentoCliente.cs",
               "RelativeToolTip": "Sistema\\AtendimentoCliente.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAAAGoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMBAAAAAAAAAAD4v04AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T18:06:25.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Chats.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.Designer.cs",
               "RelativeDocumentMoniker": "Sistema\\Chats.Designer.cs",
               "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.Designer.cs",
               "RelativeToolTip": "Sistema\\Chats.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAUwOEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-07T14:56:15.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Chats.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs",
-              "RelativeDocumentMoniker": "Sistema\\Chats.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Chats.cs [Design]",
-              "RelativeToolTip": "Sistema\\Chats.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Program.cs",
+              "RelativeDocumentMoniker": "Sistema\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Program.cs",
+              "RelativeToolTip": "Sistema\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T14:10:14.269Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-10-12T23:41:28.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Sessao.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Sessao.cs",
               "RelativeDocumentMoniker": "Sistema\\Sessao.cs",
@@ -167,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "VerificarTipo.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\VerificarTipo.cs",
               "RelativeDocumentMoniker": "Sistema\\VerificarTipo.cs",
@@ -179,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "WerkZeugCopia.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\WerkZeugCopia.cs",
               "RelativeDocumentMoniker": "Sistema\\WerkZeugCopia.cs",
@@ -191,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Cliente.cs",
               "RelativeDocumentMoniker": "Sistema\\Cliente.cs",
@@ -203,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Atendimento.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Atendimento.cs",
               "RelativeDocumentMoniker": "Sistema\\Atendimento.cs",
@@ -215,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Administrador.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Administrador.cs",
               "RelativeDocumentMoniker": "Sistema\\Administrador.cs",
@@ -227,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "AtendimentoAoCliente.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\AtendimentoAoCliente.cs",
               "RelativeDocumentMoniker": "Sistema\\AtendimentoAoCliente.cs",
@@ -238,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "HomeAdm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\HomeAdm.cs",
               "RelativeDocumentMoniker": "Sistema\\HomeAdm.cs",
@@ -249,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Mensagem.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Mensagem.cs",
               "RelativeDocumentMoniker": "Sistema\\Mensagem.cs",
@@ -261,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\TCC-ETEC-DESKTOP\\sistemaPlannetHealth\\Sistema\\Sistema\\Usuario.cs",
               "RelativeDocumentMoniker": "Sistema\\Usuario.cs",

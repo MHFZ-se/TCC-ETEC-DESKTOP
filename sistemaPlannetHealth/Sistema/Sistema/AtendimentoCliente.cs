@@ -71,39 +71,105 @@ namespace Sistema
         }
 
 
-        public void gerarColunasAtendimentos( 
-            List<Atendimento> atendimentos, 
-            FlowLayoutPanel nomeFLP, 
+
+        public void gerarColunasAtendimentos(
+            List<Atendimento> atendimentos,
+            FlowLayoutPanel nomeFLP,
             FlowLayoutPanel msgFLP,
             FlowLayoutPanel chatFLP,
             System.Windows.Forms.Label lbl_nome,
             System.Windows.Forms.Label lbl_assunto)
-
         {
-            foreach (Atendimento atendimento in atendimentos)
+            nomeFLP.SuspendLayout();
+
+            try
             {
-                System.Windows.Forms.Label lbl_atendimento = new System.Windows.Forms.Label();
-                lbl_atendimento.Text = atendimento.assunto.ToString();
+                nomeFLP.Controls.Clear();
+                nomeFLP.FlowDirection = FlowDirection.TopDown;
+                nomeFLP.WrapContents = false;
+                nomeFLP.AutoScroll = true;
+                nomeFLP.Padding = new Padding(8);
+                nomeFLP.BackColor = Color.White;
 
-                lbl_atendimento.AutoSize = true;//mexer no estilo
-                lbl_atendimento.Cursor = Cursors.Hand;
-                lbl_atendimento.Click += (sender, e) =>
+                foreach (Atendimento atendimento in atendimentos)
                 {
-                    carregarConversa(atendimento.id_atendimento, atendimento.id_cliente, msgFLP, lbl_nome, lbl_assunto, chatFLP);
+                    Panel cartao = new Panel();
+                    cartao.Width = Math.Max(180,
+                        nomeFLP.ClientSize.Width - 35);
+                    cartao.Height = 88;
+                    cartao.Margin = new Padding(0, 0, 0, 8);
+                    cartao.BackColor = Color.FromArgb(245, 249, 245);
+                    cartao.Cursor = Cursors.Hand;
 
-                };
-                nomeFLP.Controls.Add(lbl_atendimento);
+                    System.Windows.Forms.Label lblAssunto = new System.Windows.Forms.Label();
+                    lblAssunto.Text = atendimento.assunto;
+                    lblAssunto.Location = new Point(12, 10);
+                    lblAssunto.Size = new Size(
+                        cartao.Width - 24, 25);
+                    lblAssunto.Font = new Font(
+                        "Segoe UI", 10, FontStyle.Bold);
+                    lblAssunto.ForeColor =
+                        Color.FromArgb(22, 58, 36);
+                    lblAssunto.AutoEllipsis = true;
+
+                    System.Windows.Forms.Label lblEstado = new System.Windows.Forms.Label();
+                    lblEstado.Text = atendimento.estado;
+                    lblEstado.Location = new Point(12, 42);
+                    lblEstado.Size = new Size(
+                        cartao.Width - 24, 22);
+                    lblEstado.Font = new Font(
+                        "Segoe UI", 9);
+                    lblEstado.ForeColor =
+                        Color.FromArgb(90, 105, 93);
+
+                    cartao.Controls.Add(lblAssunto);
+                    cartao.Controls.Add(lblEstado);
+
+                    cartao.Click += (s, e) =>
+                        carregarConversa(
+                            atendimento.id_atendimento,
+                            atendimento.id_cliente,
+                            msgFLP,
+                            lbl_nome,
+                            lbl_assunto,
+                            chatFLP);
+
+                    lblAssunto.Click += (s, e) =>
+                        carregarConversa(
+                            atendimento.id_atendimento,
+                            atendimento.id_cliente,
+                            msgFLP,
+                            lbl_nome,
+                            lbl_assunto,
+                            chatFLP);
+
+                    lblEstado.Click += (s, e) =>
+                        carregarConversa(
+                            atendimento.id_atendimento,
+                            atendimento.id_cliente,
+                            msgFLP,
+                            lbl_nome,
+                            lbl_assunto,
+                            chatFLP);
+
+                    nomeFLP.Controls.Add(cartao);
+                }
+            }
+            finally
+            {
+                nomeFLP.ResumeLayout(true);
             }
         }
+
         private int atendimentoAtual = 0;
 
         public void carregarConversa(
-        int id_atendimento,
-        int id_cliente,
-        FlowLayoutPanel msgFLP,
-        System.Windows.Forms.Label lbl_nome,
-        System.Windows.Forms.Label lbl_assunto,
-        FlowLayoutPanel chatFLP)
+            int id_atendimento,
+            int id_cliente,
+            FlowLayoutPanel msgFLP,
+            System.Windows.Forms.Label lbl_nome,
+            System.Windows.Forms.Label lbl_assunto,
+            FlowLayoutPanel chatFLP)
         {
             atendimentoAtual = id_atendimento;
             msgFLP.SuspendLayout();
@@ -219,17 +285,6 @@ namespace Sistema
 
             flp.Controls.Add(linha);
         }
-        //private void FormChats_Resize(object sender, EventArgs e)
-        //{
-        //    foreach (Control linha in flp_mensagens.Controls)
-        //    {
-        //        linha.Width = flp_mensagens.ClientSize.Width - 35;
-        //        var balao = linha.Controls[0];
-        //        // reposiciona: adm à direita, cliente à esquerda
-        //        // (guarde a info em balao.Tag, p.ex. balao.Tag = mensagem.adm)
-        //        balao.Left = (bool)balao.Tag ? linha.Width - balao.Width : 0;
-        //    }
-        //}
         public bool enviarMensagem(string texto, FlowLayoutPanel flp)
         {
             texto = texto.Trim();
