@@ -28,5 +28,10 @@ namespace Sistema
             Chats proxima = new Chats();
             proxima.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
