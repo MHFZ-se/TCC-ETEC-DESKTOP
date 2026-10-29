@@ -39,16 +39,16 @@
             this.lbl_problema = new System.Windows.Forms.Label();
             this.lbl_nome = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnMenu = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.flp_mensagens = new System.Windows.Forms.FlowLayoutPanel();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.flp_mensagens = new System.Windows.Forms.FlowLayoutPanel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.btnMenu = new System.Windows.Forms.PictureBox();
             this.panel_mensagem.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.flp_mensagens.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_mensagem
@@ -124,20 +124,20 @@
             // lbl_problema
             // 
             this.lbl_problema.AutoSize = true;
-            this.lbl_problema.Font = new System.Drawing.Font("Montserrat Light", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_problema.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_problema.Location = new System.Drawing.Point(183, 37);
             this.lbl_problema.Name = "lbl_problema";
-            this.lbl_problema.Size = new System.Drawing.Size(61, 17);
+            this.lbl_problema.Size = new System.Drawing.Size(50, 13);
             this.lbl_problema.TabIndex = 5;
             this.lbl_problema.Text = "problema";
             // 
             // lbl_nome
             // 
             this.lbl_nome.AutoSize = true;
-            this.lbl_nome.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nome.Location = new System.Drawing.Point(181, 17);
             this.lbl_nome.Name = "lbl_nome";
-            this.lbl_nome.Size = new System.Drawing.Size(48, 20);
+            this.lbl_nome.Size = new System.Drawing.Size(45, 16);
             this.lbl_nome.TabIndex = 4;
             this.lbl_nome.Text = "nome";
             // 
@@ -152,17 +152,18 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1281, 80);
             this.panel2.TabIndex = 11;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // btnMenu
+            // panelMenu
             // 
-            this.btnMenu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu.BackgroundImage")));
-            this.btnMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnMenu.Location = new System.Drawing.Point(1187, 12);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(69, 50);
-            this.btnMenu.TabIndex = 2;
-            this.btnMenu.TabStop = false;
-            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
+            this.panelMenu.BackColor = System.Drawing.Color.White;
+            this.panelMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelMenu.Location = new System.Drawing.Point(1059, 68);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(210, 220);
+            this.panelMenu.TabIndex = 6;
+            this.panelMenu.Visible = false;
+            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
             // label9
             // 
@@ -174,17 +175,6 @@
             this.label9.Size = new System.Drawing.Size(149, 16);
             this.label9.TabIndex = 1;
             this.label9.Text = "Central de Atendimento ";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(61, 12);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(150, 31);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "PlantHelth";
             // 
             // flp_mensagens
             // 
@@ -201,16 +191,27 @@
             this.flp_mensagens.TabIndex = 2;
             this.flp_mensagens.WrapContents = false;
             // 
-            // panelMenu
+            // label10
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.White;
-            this.panelMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelMenu.Location = new System.Drawing.Point(1059, 68);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(210, 220);
-            this.panelMenu.TabIndex = 6;
-            this.panelMenu.Visible = false;
-            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(61, 12);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(150, 31);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "PlantHelth";
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu.BackgroundImage")));
+            this.btnMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnMenu.Location = new System.Drawing.Point(1187, 12);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(69, 50);
+            this.btnMenu.TabIndex = 2;
+            this.btnMenu.TabStop = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // Chats
             // 
@@ -231,8 +232,8 @@
             this.panel6.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.flp_mensagens.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -247,11 +248,11 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label lbl_nome;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox btnMenu;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.FlowLayoutPanel flp_mensagens;
         private System.Windows.Forms.Label lbl_problema;
         private System.Windows.Forms.Panel panelMenu;
+        private System.Windows.Forms.PictureBox btnMenu;
+        private System.Windows.Forms.Label label10;
     }
 }

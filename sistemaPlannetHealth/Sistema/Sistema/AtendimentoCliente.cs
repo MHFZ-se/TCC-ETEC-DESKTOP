@@ -78,7 +78,8 @@ namespace Sistema
             FlowLayoutPanel msgFLP,
             FlowLayoutPanel chatFLP,
             System.Windows.Forms.Label lbl_nome,
-            System.Windows.Forms.Label lbl_assunto)
+            System.Windows.Forms.Label lbl_assunto,
+            Action<int, int> aoSelecionarAtendimento)
         {
             nomeFLP.SuspendLayout();
 
@@ -125,32 +126,26 @@ namespace Sistema
                     cartao.Controls.Add(lblAssunto);
                     cartao.Controls.Add(lblEstado);
 
-                    cartao.Click += (s, e) =>
-                        carregarConversa(
+                    Action abrirConversa = () =>
+                    {
+                        aoSelecionarAtendimento?.Invoke(
                             atendimento.id_atendimento,
-                            atendimento.id_cliente,
-                            msgFLP,
-                            lbl_nome,
-                            lbl_assunto,
-                            chatFLP);
+                            atendimento.id_cliente
+                        );
 
-                    lblAssunto.Click += (s, e) =>
                         carregarConversa(
                             atendimento.id_atendimento,
                             atendimento.id_cliente,
                             msgFLP,
                             lbl_nome,
                             lbl_assunto,
-                            chatFLP);
+                            chatFLP
+                        );
+                    };
 
-                    lblEstado.Click += (s, e) =>
-                        carregarConversa(
-                            atendimento.id_atendimento,
-                            atendimento.id_cliente,
-                            msgFLP,
-                            lbl_nome,
-                            lbl_assunto,
-                            chatFLP);
+                    cartao.Click += (s, e) => abrirConversa();
+                    lblAssunto.Click += (s, e) => abrirConversa();
+                    lblEstado.Click += (s, e) => abrirConversa();
 
                     nomeFLP.Controls.Add(cartao);
                 }
@@ -335,6 +330,7 @@ namespace Sistema
             // se sobrar espaço, empurra tudo pra baixo; se não, padding mínimo
             flp.Padding = new Padding(10, Math.Max(10, espacoLivre), 10, 10);
         }
+
 
 
 

@@ -117,6 +117,12 @@
     </Compile>
     <Compile Include="ExibirDados.cs" />
     <Compile Include="Feedback.cs" />
+    <Compile Include="Feedbacks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedbacks.Designer.cs">
+      <DependentUpon>Feedbacks.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeAdm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Chats.resx">
       <DependentUpon>Chats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedbacks.resx">
+      <DependentUpon>Feedbacks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeAdm.resx">
       <DependentUpon>HomeAdm.cs</DependentUpon>

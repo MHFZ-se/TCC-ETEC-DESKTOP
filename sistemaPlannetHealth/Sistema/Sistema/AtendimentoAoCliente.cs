@@ -12,6 +12,7 @@ namespace Sistema
 {
     public partial class AtendimentoAoCliente : Form
     {
+
         public AtendimentoAoCliente()
         {
             InitializeComponent();
@@ -33,5 +34,19 @@ namespace Sistema
         {
 
         }
+
+        private void buttonPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void buttonPanel1_Click(object sender, EventArgs e)
+        {
+            Feedbacks feedbacks = new Feedbacks();
+            Hide();
+            feedbacks.Show();
+            
+        }
+
     }
 }

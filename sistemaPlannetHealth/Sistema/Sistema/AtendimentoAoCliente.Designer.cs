@@ -29,25 +29,94 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AtendimentoAoCliente));
-            this.buttonPanel3 = new sistemaPlannetHealth.ButtonPanel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.buttonPanel1 = new sistemaPlannetHealth.ButtonPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.buttonPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.buttonPanel3 = new sistemaPlannetHealth.ButtonPanel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.buttonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.buttonPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
+            // 
+            // buttonPanel1
+            // 
+            this.buttonPanel1.BackColor = System.Drawing.Color.White;
+            this.buttonPanel1.BorderColor = System.Drawing.Color.Silver;
+            this.buttonPanel1.BorderRadius = 12;
+            this.buttonPanel1.BorderSize = 2;
+            this.buttonPanel1.Controls.Add(this.panel1);
+            this.buttonPanel1.Controls.Add(this.pictureBox1);
+            this.buttonPanel1.Controls.Add(this.pictureBox2);
+            this.buttonPanel1.Controls.Add(this.label1);
+            this.buttonPanel1.Controls.Add(this.label2);
+            this.buttonPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonPanel1.HoverColor = System.Drawing.Color.White;
+            this.buttonPanel1.Location = new System.Drawing.Point(285, 319);
+            this.buttonPanel1.Name = "buttonPanel1";
+            this.buttonPanel1.NormalColor = System.Drawing.Color.White;
+            this.buttonPanel1.PressedColor = System.Drawing.Color.White;
+            this.buttonPanel1.Size = new System.Drawing.Size(510, 180);
+            this.buttonPanel1.TabIndex = 13;
+            this.buttonPanel1.Click += new System.EventHandler(this.buttonPanel1_Click);
+            this.buttonPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.buttonPanel1_Paint);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(125)))), ((int)(((byte)(50)))));
+            this.panel1.Location = new System.Drawing.Point(15, 23);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(5, 143);
+            this.panel1.TabIndex = 12;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(450, 71);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(40, 23);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(34, 33);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(80, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(216, 33);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Feedback dos clientes";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(80, 71);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(75, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Nada de novo";
             // 
             // buttonPanel3
             // 
@@ -117,90 +186,23 @@
             this.label8.TabIndex = 1;
             this.label8.Text = "Nenum chamado aberto";
             // 
-            // buttonPanel1
-            // 
-            this.buttonPanel1.BackColor = System.Drawing.Color.White;
-            this.buttonPanel1.BorderColor = System.Drawing.Color.Silver;
-            this.buttonPanel1.BorderRadius = 12;
-            this.buttonPanel1.BorderSize = 2;
-            this.buttonPanel1.Controls.Add(this.panel1);
-            this.buttonPanel1.Controls.Add(this.pictureBox1);
-            this.buttonPanel1.Controls.Add(this.pictureBox2);
-            this.buttonPanel1.Controls.Add(this.label1);
-            this.buttonPanel1.Controls.Add(this.label2);
-            this.buttonPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonPanel1.HoverColor = System.Drawing.Color.White;
-            this.buttonPanel1.Location = new System.Drawing.Point(285, 319);
-            this.buttonPanel1.Name = "buttonPanel1";
-            this.buttonPanel1.NormalColor = System.Drawing.Color.White;
-            this.buttonPanel1.PressedColor = System.Drawing.Color.White;
-            this.buttonPanel1.Size = new System.Drawing.Size(510, 180);
-            this.buttonPanel1.TabIndex = 13;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(125)))), ((int)(((byte)(50)))));
-            this.panel1.Location = new System.Drawing.Point(15, 23);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(5, 143);
-            this.panel1.TabIndex = 12;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(450, 71);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(40, 23);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(34, 33);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(80, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 33);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Feedback dos clientes";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(80, 71);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nada de novo";
-            // 
             // AtendimentoAoCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1064, 681);
+            this.ClientSize = new System.Drawing.Size(1268, 710);
             this.Controls.Add(this.buttonPanel1);
             this.Controls.Add(this.buttonPanel3);
             this.Name = "AtendimentoAoCliente";
             this.Text = "AtendimentoAoCliente";
-            this.buttonPanel3.ResumeLayout(false);
-            this.buttonPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.buttonPanel1.ResumeLayout(false);
             this.buttonPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.buttonPanel3.ResumeLayout(false);
+            this.buttonPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }

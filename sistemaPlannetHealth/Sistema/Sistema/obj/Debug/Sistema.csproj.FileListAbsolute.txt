@@ -292,3 +292,9 @@ C:\Users\Windows 11\OneDrive\Área de Trabalho\Nova pasta\TCC-ETEC-DESKTOP\siste
 C:\Users\Windows 11\OneDrive\Área de Trabalho\Nova pasta\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.csproj.Up2Date
 C:\Users\Windows 11\OneDrive\Área de Trabalho\Nova pasta\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.exe
 C:\Users\Windows 11\OneDrive\Área de Trabalho\Nova pasta\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.pdb
+C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.AtendimentoAoCliente.resources
+C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.Chats.resources
+C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.HomeAdm.resources
+C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.tabelasensor.resources
+C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.tabelaUsuario.resources
+C:\Users\Administrador\Documents\TCC-ETEC-DESKTOP\sistemaPlannetHealth\Sistema\Sistema\obj\Debug\Sistema.Feedbacks.resources

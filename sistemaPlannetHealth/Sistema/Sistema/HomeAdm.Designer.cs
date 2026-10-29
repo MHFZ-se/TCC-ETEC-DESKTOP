@@ -115,6 +115,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1268, 80);
             this.panel1.TabIndex = 10;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pictureBox8
             // 
@@ -147,6 +148,7 @@
             this.label10.Size = new System.Drawing.Size(150, 31);
             this.label10.TabIndex = 0;
             this.label10.Text = "PlantHelth";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // pictureBox7
             // 

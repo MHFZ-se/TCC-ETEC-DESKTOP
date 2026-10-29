@@ -13,12 +13,12 @@ namespace Sistema
     {
         //*A classe cliente serve para pessoas "comuns" que vão usar os sensores do nosso grupo: agricultores etc
         //cliente herda Usuario que por si só é uma herança de conexao*/
-        int id {  get; set; }
-        string nome { get; set; }   
-        string telefone { get; set; }
-        string email { get; set; }
-        string rota_foto_perfil {  get; set; }
-        bool adm {  get; set; }
+        public int id {  get; set; }
+        public string nome { get; set; }
+        public string telefone { get; set; }
+        public string email { get; set; }
+        public string rota_foto_perfil {  get; set; }
+        public bool adm {  get; set; }
 
        
 

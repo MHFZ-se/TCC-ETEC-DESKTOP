@@ -14,6 +14,30 @@ namespace Sistema
     {
         // instância no nível da classe: todos os métodos do form usam a mesma
         private AtendimentoCliente aaoc = new AtendimentoCliente();
+        private System.Windows.Forms.Timer timerChat = new System.Windows.Forms.Timer();
+        private int idAtendimentoAtual = 0;
+        private int idClienteAtual = 0;
+
+        private void timerChat_Tick(object sender, EventArgs e)
+        {
+            if (idAtendimentoAtual > 0 && idClienteAtual > 0)
+            {
+                aaoc.carregarConversa(
+                    idAtendimentoAtual,
+                    idClienteAtual,
+                    flp_chat,
+                    lbl_nome,
+                    lbl_problema,
+                    flp_chat
+                );
+            }
+        }
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            timerChat.Stop();
+            timerChat.Dispose();
+            base.OnFormClosed(e);
+        }
 
         private void flp_atendimentos_Paint(object sender, PaintEventArgs e)
         {
@@ -31,15 +55,26 @@ namespace Sistema
             EstilizarMenu();
 
             List<Atendimento> atendimentos = aaoc.buscarAtendimentos();
+
             aaoc.gerarColunasAtendimentos(
                 atendimentos,
                 flp_atendimentos,
-                flp_chat,        
-                flp_chat,        
+                flp_chat,
+                flp_chat,
                 lbl_nome,
-                lbl_problema
+                lbl_problema,
+                (idAtendimento, idCliente) =>
+                {
+                    idAtendimentoAtual = idAtendimento;
+                    idClienteAtual = idCliente;
 
-                );
+                    if (!timerChat.Enabled)
+                        timerChat.Start();
+                }
+            );
+
+            timerChat.Interval = 3000;
+            timerChat.Tick += timerChat_Tick;
         }
 
         private void btn_voltar_Click(object sender, EventArgs e)
@@ -163,6 +198,7 @@ namespace Sistema
 
             tabelasensor tela = new tabelasensor();
             tela.Show();
+
             this.Hide();
         }
 
@@ -196,6 +232,11 @@ namespace Sistema
         }
 
         private void panelMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
